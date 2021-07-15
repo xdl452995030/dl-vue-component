@@ -13,7 +13,8 @@
     "build-storybook": "build-storybook",
     "clean": "lerna clean",
     "build:prod": "cross-env NODE_ENV=production rollup -c",
-    "build:dev": "cross-env NODE_ENV=development rollup -c"
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
+    "lerna": "lerna publish"
   },
   "keywords": [],
   "author": "xiaodadalong",
